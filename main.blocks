@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="LLj@{H|OvtT$^D%]*Zbe" x="0" y="0"><statement name="HANDLER"><block type="quest_Note_1_quest_Show_String_For_Note_Small_Func" id="Gq^=9.YRt}Tyl3uwQIh`"><value name="textStrIn"><shadow type="text" id="y0aj9e]nNCTnu+N6[xP%"><field name="TEXT">2-Sequence Animation Validates New Start</field></shadow></value><next><block type="basic_show_icon" id="kXAf3^y(~kkUgkX$_cxi"><field name="i">IconNames.Heart</field><next><block type="quest_Timer_quest_Set_ContinueCurrentState_CountdownTimer_Func" id="ehj!W^L5hb@Hs!j]UBIi"><field name="timeUnits">quest_Time_Units_Enum.Seconds</field><value name="countdownTimer"><shadow type="math_number" id="Q2nQwj9nJWsuj:SU[gWC"><field name="NUM">2</field></shadow></value><next><block type="basic_show_icon" id="4^OL2czg%GX6PjfuZ|ac"><field name="i">IconNames.Happy</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id=";oAO.FPyvr|trI)=Liu%" x="573" y="113"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="~PbvL+(OTB$tLVQSK[~J"><field name="LEDS">`
+        . # . . . 
+        # # # . . 
+        . # . . . 
+        . # . . . 
+        . # . # .
+        `</field><next><block type="quest_Motors_quest_Set_PowerMotorsViaBlueRedBlackPins_Func" id="p|4Lx|.Iw9[K9crCa*V`"><field name="portIdsIn">quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight</field><value name="powerLeftIn"><shadow type="math_number_minmax" id="Z];p7ly%/N]?xQSe8@1~"><mutation min="-100" max="100" label="PowerLeftIn" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><value name="powerRightIn"><shadow type="math_number_minmax" id="5xYhwrj53JT,(={PL+e?"><mutation min="-100" max="100" label="PowerRightIn" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="quest_Timer_quest_Set_ContinueCurrentState_CountdownTimer_Func" id="Nupaopn|;8-Z.5=4F:5F"><field name="timeUnits">quest_Time_Units_Enum.Seconds</field><value name="countdownTimer"><shadow type="math_number" id="4ga99.z)yeA(YGH{$M#;"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="r`Z7SGfg`Tyl{Gksn|0G"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # . # .
+        `</field><next><block type="quest_Motors_quest_Set_PowerMotorsViaBlueRedBlackPins_Func" id="sH:-XA!9t)6z7$+inf9S"><field name="portIdsIn">quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight</field><value name="powerLeftIn"><shadow type="math_number_minmax" id="[8Wp6i_W5I4j0LhxM~v6"><mutation min="-100" max="100" label="PowerLeftIn" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><value name="powerRightIn"><shadow type="math_number_minmax" id="VBP}76Z~FG(rUq}54n$d"><mutation min="-100" max="100" label="PowerRightIn" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="pk(cXwda(=ES-v?nF+%D" x="1112" y="98"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="~|42nqY7YIL)z{GzCrWY"><field name="LEDS">`
+        . . . # . 
+        . . # # # 
+        . . . # . 
+        . . . # . 
+        . # . # .
+        `</field><next><block type="quest_Motors_quest_Set_PowerMotorsViaBlueRedBlackPins_Func" id="A+Cv:2VA=Tr?J!XNbQ1$"><field name="portIdsIn">quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight</field><value name="powerLeftIn"><shadow type="math_number_minmax" id="hl0se~MZ-|dD-`o8a)uf"><mutation min="-100" max="100" label="PowerLeftIn" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><value name="powerRightIn"><shadow type="math_number_minmax" id=",mYBatkt0v_6#TGSpD)J"><mutation min="-100" max="100" label="PowerRightIn" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><next><block type="quest_Timer_quest_Set_ContinueCurrentState_CountdownTimer_Func" id="2wiX:AFj:j=rniM`z2~n"><field name="timeUnits">quest_Time_Units_Enum.Seconds</field><value name="countdownTimer"><shadow type="math_number" id="(?~#yt9Z7yzL64_|8Q*:"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="[R6~8Ms+lWYMEhCD+f0w"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # . # .
+        `</field><next><block type="quest_Motors_quest_Set_PowerMotorsViaBlueRedBlackPins_Func" id="EHbr^}[JvM(BPjf,z=oK"><field name="portIdsIn">quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight</field><value name="powerLeftIn"><shadow type="math_number_minmax" id="UadSAP,)n_3#1^l6h)iG"><mutation min="-100" max="100" label="PowerLeftIn" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><value name="powerRightIn"><shadow type="math_number_minmax" id="r(%?89poF$h](PK@ZFDw"><mutation min="-100" max="100" label="PowerRightIn" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="TQp#cnbm?rL.iHJq%~Sl" x="1639" y="103"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="BUl2k|,3sqSv2hd)=XG?"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        . # . # . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="quest_Motors_quest_Set_PowerMotorsViaBlueRedBlackPins_Func" id="0enMsGvOe#SXl;GPrh0K"><field name="portIdsIn">quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight</field><value name="powerLeftIn"><shadow type="math_number_minmax" id="jv7]GYk/ggCPB`Jyvt]-"><mutation min="-100" max="100" label="PowerLeftIn" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><value name="powerRightIn"><shadow type="math_number_minmax" id="EbH@/J-],I$S8a(Q?S0B"><mutation min="-100" max="100" label="PowerRightIn" precision="0"></mutation><field name="SLIDER">50</field></shadow></value><next><block type="quest_Timer_quest_Set_ContinueCurrentState_CountdownTimer_Func" id="RT[}:a{~;xM^;eM=EQ%,"><field name="timeUnits">quest_Time_Units_Enum.Seconds</field><value name="countdownTimer"><shadow type="math_number" id="DtasHv611wJdc+pCpJIe"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="R.MVI9=tErsLmIEm?dm@"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # . # .
+        `</field><next><block type="quest_Motors_quest_Set_PowerMotorsViaBlueRedBlackPins_Func" id="]:{~y)a@:(F9-;NSYLBX"><field name="portIdsIn">quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight</field><value name="powerLeftIn"><shadow type="math_number_minmax" id="K}ZdrV$,P.+K2=^M1O2V"><mutation min="-100" max="100" label="PowerLeftIn" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><value name="powerRightIn"><shadow type="math_number_minmax" id="k0C5`suEY%0C96mGJdUw"><mutation min="-100" max="100" label="PowerRightIn" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
