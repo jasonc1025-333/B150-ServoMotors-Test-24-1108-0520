@@ -79,6 +79,9 @@ input.onButtonPressed(Button.B, function () {
     0
     )
 })
+quest_Note_3.quest_Show_String_For_Note_Big_Func(
+"#master"
+)
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
 "2-Sequence Animation Validates New Start"
 )
