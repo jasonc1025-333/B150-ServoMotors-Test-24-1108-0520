@@ -79,6 +79,9 @@ input.onButtonPressed(Button.B, function () {
     0
     )
 })
+quest_Note_2.quest_Show_String_For_Note_Big_Func(
+"#branch-25-0208-0630"
+)
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
 "2-Sequence Animation Validates New Start"
 )
