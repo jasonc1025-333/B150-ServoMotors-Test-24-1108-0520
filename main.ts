@@ -31,11 +31,11 @@ input.onButtonPressed(Button.A, function () {
     0
     )
 })
+function pre_setup_System_Func () {
+    display.rotateTo(display.Direction.UpsideDown)
+}
 function setup_System_Func () {
 	
-}
-function setupPre_System_Func () {
-    display.rotateTo(display.Direction.UpsideDown)
 }
 input.onButtonPressed(Button.AB, function () {
     basic.showLeds(`
@@ -197,7 +197,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
         quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
     }
 })
-setupPre_System_Func()
+pre_setup_System_Func()
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
 "2-Sequence Animation Validates New Start"
 )
