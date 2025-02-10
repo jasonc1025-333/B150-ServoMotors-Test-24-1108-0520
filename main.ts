@@ -1,3 +1,9 @@
+function setup_Staff_Func () {
+	
+}
+function setup_Student_Func () {
+	
+}
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
         . # . . .
@@ -25,6 +31,12 @@ input.onButtonPressed(Button.A, function () {
     0
     )
 })
+function setup_System_Func () {
+	
+}
+function setupPre_System_Func () {
+    display.rotateTo(display.Direction.UpsideDown)
+}
 input.onButtonPressed(Button.AB, function () {
     basic.showLeds(`
         . # . # .
@@ -185,12 +197,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
         quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(3, quest_Time_Units_Enum.Seconds)
     }
 })
-quest_Note_2.quest_Show_String_For_Note_Small_Func(
-"System Pre-Setup"
-)
-quest_Note_3.quest_Show_String_For_Note_Big_Func(
-"#master"
-)
+setupPre_System_Func()
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
 "2-Sequence Animation Validates New Start"
 )
@@ -198,12 +205,8 @@ basic.showIcon(IconNames.Heart)
 quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
 basic.showIcon(IconNames.Happy)
 quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
-quest_Note_2.quest_Show_String_For_Note_Small_Func(
-"System Setup"
-)
-quest_Note_2.quest_Show_String_For_Note_Small_Func(
-"Staff Setup"
-)
+setup_System_Func()
+setup_Staff_Func()
 quest_Dashboard.quest_Send_LoginOfBot_ToXrayDashboardOfMb_Func(
 0,
 quest_Toggle_OnOff_Enum.On,
@@ -212,3 +215,4 @@ quest_Debug_Show_Enum.Dashboard_OLED
 quest_Note_2.quest_Show_String_For_Note_Small_Func(
 "Student Setup"
 )
+setup_Student_Func()
